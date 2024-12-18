@@ -1,0 +1,79 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #032541;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  background-image: linear-gradient(to right, #8fcea1, #03b3e3);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.page-logo {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  color: #032541;
+  letter-spacing: 1px;
+  line-height: 38px;
+  padding: 0 5px;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.nav-items-container {
+  display: flex;
+}
+
+.nav-items-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  order: 1;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.search-input {
+  outline: none;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 4px 12px 7px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  color: #acacac;
+  min-width: 250px;
+  margin-left: 20px;
+}
+
+.button {
+  width: 60px;
+  height: 25px;
+  background-color: orange;
+  color: white;
+  margin-left: 10px;
+}

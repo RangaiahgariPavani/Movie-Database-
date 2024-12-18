@@ -1,0 +1,14 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.control-btn {
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 5px;
+}

@@ -1,0 +1,17 @@
+.loader-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
